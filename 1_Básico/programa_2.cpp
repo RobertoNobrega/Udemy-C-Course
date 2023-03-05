@@ -1,17 +1,11 @@
-#include <iostream> // Importanto biblioteca de entrada e saída de dados.
-
-using namespace std; // Usando o std padrão, para "evitar conflito(s) de namespace".
-
+#include <iostream>
 /*
-                Aula 5: Declarando Variáveis
-        C++ é "Case Sensitive", ou seja, distingue letras maiúsculas das minúsculas.
-            OBS: int idade, Idade; // São duas variáveis, com nomes diferentes.
-        Para declarar variáveis, tem que iniciar com letra ou com o underline.
+    C++ tem namespace (espaço de nome), que expressa um agrupamento lógico (contexto), servindo para evitar conflito(s) de nome(s). Como
+    define um escopo, um identificador fora de um namespace, deve ter o nome do namespace em sua frente.
 */
-int main(void){
-    int idade; // Declarando uma variável, de tipo inteiro.
-    // int idade2, idade3; // Declarando duas variáveis, numa mesma linha de código.
-    idade = 20;
-    cout << "\n\tIdade Fornecida: " << idade << endl;
+int main(){
+    std::cout << "\t\t Hello World 2!" << std::endl; // Aqui, vai imprimir uma mensagem na tela. cout e endl são os identificadores e o std é
+    // o namespace.
+    std::cout << "\t\t\tEnd\n";
     return 0;
 }
