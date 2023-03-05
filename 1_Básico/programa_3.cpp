@@ -12,6 +12,8 @@ int main(void){
     int idade; // Declarando uma variável, de tipo inteiro.
     // int idade2, idade3; // Declarando duas variáveis, numa mesma linha de código.
     idade = 20;
+    float pi = 3.14;  // Armazena um valor racional ( ou real também ).
+    // double pi = 3.14;  // Armazenamento, com maior precisão.
     cout << "\n\tIdade Fornecida: " << idade << endl;
     return 0;
 }
